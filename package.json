@@ -1,0 +1,8 @@
+{
+  // 发布的名称，如果不打算发布，这个字段是可选的
+  "name": "fresher-something",
+  // 发布的版本号
+  "version": "0.0.0",
+  // 如果设置成true，npm会拒绝发布
+  "private": true
+}
