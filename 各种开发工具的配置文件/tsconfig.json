@@ -1,0 +1,16 @@
+{
+  // https://www.typescriptlang.org/tsconfig/#extends
+  "extends": "./base.json",
+  "compilerOptions": {
+    // https://www.typescriptlang.org/tsconfig/#lib
+    "lib": [ 
+      "DOM", // DOM definitions - window, document, etc.
+    ]
+  },
+  // https://www.typescriptlang.org/tsconfig/#include
+  // 用来指定哪些ts文件需要被编译
+  "include": ["src/**/*", "tests/**/*"],
+  // https://www.typescriptlang.org/tsconfig/#exclude
+  // 用来指定哪些ts文件不需要被编译
+  "exclude": ["node_modules"]
+}
